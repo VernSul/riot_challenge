@@ -13,17 +13,18 @@ npm install
 ```
 
 ### Generate Env Vars
+
 ```bash
 echo "PORT=3000\nHMAC_SECRET=$(openssl rand -hex 32)" > .env
 ```
 
-### Run dev server
+### Run Dev Server
 
 ```bash
 npm run dev
 ```
 
-### Run built version
+### Run Built Version
 
 ```bash
 npm run build && npm run start
