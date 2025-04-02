@@ -35,6 +35,12 @@ npm run build && npm run start
 npm run format && npm run lint:fix
 ```
 
+### Testing
+
+```bash
+npm run test
+```
+
 ## Requirements
 
 ### 1. Encryption Endpoint (`/encrypt`)
